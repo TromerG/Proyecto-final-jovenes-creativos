@@ -1,0 +1,89 @@
+body {
+    background-image: url('https://cdn.discordapp.com/attachments/472882666941972488/1175359650720399370/Fondo.png?ex=656af1f9&is=65587cf9&hm=03e21ac6a1b7a70c3a6690b05b03235d696202bdbd1c496bae4f91420347eee5&');
+    background-size: 50%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+header{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.623);
+    color: #1a0303;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+}
+.logo-img{
+    height: 50px;
+}
+
+nav {
+    display: flex;
+  }
+  
+  nav a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #160505;
+    padding-top: 10px;
+    transition: 0.3s;
+  }
+  nav a:hover{
+    font-size: 20px;
+  }
+  
+  #logout {
+    background-color: #ff000093;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  #logout:hover {
+    background-color: #cc0000;
+
+  }
+  #Contenido {
+    display: flexbox;
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.623); /* Fondo oscuro con transparencia */
+    margin: 10%;
+    border-radius: 20px;
+  }
+  #piedepagina {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px; /* Agregado espacio en la parte superior del enlace */
+    width: 100%; /* Ancho completo en pantallas pequeñas */
+  }
+  .PieDePagina {
+    background: rgba(255, 255, 255, 0.329); /* Fondo oscuro con transparencia */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+  .bx {
+  font-size: 24px;
+}
+#Bottom {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px; /* Agregado espacio en la parte superior del enlace */
+    width: 100%; /* Ancho completo en pantallas pequeñas */
+  }

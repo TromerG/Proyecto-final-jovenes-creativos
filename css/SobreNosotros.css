@@ -1,10 +1,106 @@
+body {
+    background-image: url('https://cdn.discordapp.com/attachments/472882666941972488/1175359650720399370/Fondo.png?ex=656af1f9&is=65587cf9&hm=03e21ac6a1b7a70c3a6690b05b03235d696202bdbd1c496bae4f91420347eee5&');
+    background-size: 50%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
 header{
     display: flex;
+    background-color: rgba(255, 255, 255, 0.623);
+    color: #1a0303;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
     display: flex;
 }
 .logo-img{
-    height: 120px;
+    height: 50px;
+}
+
+nav {
+    display: flex;
+  }
+  
+  nav a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #160505;
+    padding-top: 10px;
+    transition: 0.3s;
+  }
+  nav a:hover{
+    font-size: 20px;
+  }
+  
+  #logout {
+    background-color: #ff000093;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  #logout:hover {
+    background-color: #cc0000;
+  }
+  
+  
+  h1 {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  
+  div {
+    background: rgba(255, 255, 255, 0.623);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 36px 10px rgba(0,0,0,1);
+    margin: 20px;
+  }
+  
+
+  p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Estilos para el texto en negrita */
+  strong {
+    font-weight: bold;
+  }
+  
+  /* Estilos para saltos de línea dobles */
+  br {
+    margin: 20px 0;
+  }
+  
+  #MuestraProducto {
+    display: flex;
+    justify-content: space-around;   
+}
+
+
+.ofertas {
+    width: 48%;
+    box-sizing: border-box;
+    margin: 10px;
+    overflow: hidden; /* Evita que las imágenes se salgan del contenedor */
+    border: none; 
+}
+
+.ofertas img {
+    width: 100%;
+    height: auto;
+    display: block; /* Elimina el espacio adicional debajo de la imagen */
+    border: none; /* Elimina el borde de la imagen */
+    border-radius: 0; 
+    
 }
