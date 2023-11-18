@@ -7,28 +7,37 @@
     <link rel="stylesheet" href="css/Opinion.css">
 </head>
 <body>
-        <Header>
-            <div>
-                <img src="Sources/LogoMentesMagicas.png" alt="Logo De La Empresa" class="logo-img">
-            </div>
-        <nav><a href="QuienesSomos.html">¿Quienes somos?</a>
-            <a id="Pricing" href="QueOfrecemos.html">¿Qué ofrecemos?</a>
-            <button id="logout">logout</button>
-         </nav>
+    <header>
+        <div>
+            <img src="Sources/LogoMentesMagicas.png" alt="Logo De La Empresa" class="logo-img">
+        </div>
+        <nav>
+            <a href="SobreNostros.html">¿Quiénes somos?</a>
+            <a id="Pricing" href="NuestrosProductos.html">¡Nuestros Productos!</a>
+            <button id="logout">Salir</button>
+        </nav>
     </header>
-    <h1>Deja Una Sugerencia Sobre Nosotros</h1>
-    <form id="opinionForm">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" required><br>
 
-        <label for="opinion">Sugerencia:</label>
-        <textarea id="opinion" required></textarea><br>
+    <div id="content-container">
+        <div id="form-container">
+            <h1>Deja Una Sugerencia Sobre Nosotros</h1>
 
-        <button type="submit">Enviar Sugerencia</button>
-    </form>
+            <form id="opinionForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required><br>
 
-    <strong><ul id="opiniones"></ul></strong>
+                <label for="opinion">Sugerencia:</label>
+                <textarea id="opinion" required></textarea><br>
+
+                <button type="submit">Enviar Sugerencia</button>
+            </form>
+        </div>
+
+        <div id="sugerencias-container">
+            <strong><ul id="opiniones"></ul></strong>
+        </div>
+    </div>
+
     <script src="Java/Opinion.js"></script>
-    
 </body>
 </html>

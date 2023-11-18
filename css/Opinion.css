@@ -1,0 +1,120 @@
+body {
+    background-image: url('https://cdn.discordapp.com/attachments/472882666941972488/1175359650720399370/Fondo.png?ex=656af1f9&is=65587cf9&hm=03e21ac6a1b7a70c3a6690b05b03235d696202bdbd1c496bae4f91420347eee5&%27);');
+    background-size: 50%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.623);
+    color: #ffffff;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo-img {
+    height: 50px;
+}
+
+#content-container {
+    display: flex;
+}
+
+#form-container {
+    width: 50%;
+    padding: 20px;
+}
+
+#sugerencias-container {
+    width: 50%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.24);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#opinionForm {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+#opinionForm label,
+#opinionForm input,
+#opinionForm textarea {
+    display: block;
+    margin: 10px 0;
+}
+
+#opinionForm label {
+    font-weight: bold;
+}
+
+#opinionForm input[type="text"],
+#opinionForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#opinionForm button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#opinionForm button:hover {
+    background-color: #333a3f;
+}
+
+#opiniones {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.24);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.opinion {
+    background: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.opinion .nombre {
+    font-weight: bold;
+    color: #333;
+}
+
+.opinion .contenido {
+    color: #666;
+}
+nav a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #160505;
+    padding-top: 10px;
+    transition: 0.3s;
+    
+  }
+  
+  nav a:hover {
+    font-size: 20px;
+  }
+  
