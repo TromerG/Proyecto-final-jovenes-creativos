@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opinion</title>
+    <link rel="stylesheet" href="css/Opinion.css">
+</head>
+<body>
+    <header>
+        
+        <nav><a href="QuienesSomos.html">¿Quienes somos?</a>
+            <a id="Pricing" href="QueOfrecemos.html">¿Qué ofrecemos?</a>
+            <button id="logout">logout</button>
+         </nav>
+    </header>
+    <h1>Deja Una Sugerencia Sobre Nosotros</h1>
+    <form id="opinionForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required><br>
+
+        <label for="opinion">Sugerencia:</label>
+        <textarea id="opinion" required></textarea><br>
+
+        <button type="submit">Enviar Sugerencia</button>
+    </form>
+
+    <strong><ul id="opiniones"></ul></strong>
+    <script src="Java/Opinion.js"></script>
+    
+</body>
+</html>
